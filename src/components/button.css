@@ -1,0 +1,65 @@
+.btn-main{
+    color: white;
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  .btn1 button{
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 50px;
+    color: white;
+    background: linear-gradient(to top,rgb(36, 57, 245), rgb(124, 40, 192), rgb(95, 4, 104));
+    border: 1px solid blueviolet;
+    cursor: pointer;
+  }
+  .btn2 button{
+    padding: 8px 18px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 50px;
+    color: white;
+    background:none;
+    border: 3px solid blueviolet;
+    cursor: pointer;
+    /* transition: all .5s; */
+  }
+  .btn1 button:hover{
+    background: black;
+    border: 1px solid blueviolet;
+  }
+  .btn2 button:hover{
+    background: linear-gradient(to top,rgb(36, 57, 245), rgb(124, 40, 192), rgb(95, 4, 104));;
+    border: 3px solid blueviolet;
+  }
+  .btn3 {
+    transition: .6s ease-in;
+}
+@media(min-width: 300px){
+ .btn1 button{
+  font-size: 10px;
+  padding: 7px 17px;
+ } 
+ .btn2 button{
+  font-size: 10px;
+  padding: 7px 17px;
+ } 
+ .btn-main .btn1{
+  /* margin-left: 30px; */
+  align-content: center;
+  text-align: center;
+ }
+}
+@media(min-width:768px){
+  .btn1 button{
+    font-size: 18px;
+    padding: 10px 20px;
+   } 
+   .btn2 button{
+    font-size: 18px;
+    padding: 9px 19px;
+   } 
+}

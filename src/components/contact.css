@@ -1,0 +1,189 @@
+.grid-contact {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Two equal columns */
+  gap: 2rem; /* Add spacing between columns */
+  max-width: 1240px; /* Set maximum width */
+  margin: 0 auto; /* Center the grid horizontally */
+  align-items: center; /* Vertically align items */
+  height: 100vh;
+  flex-wrap: wrap;
+}
+
+.contact-ctn h2 {
+  font-size: 30px;
+  font-weight: bold;
+  background: linear-gradient(
+    to top,
+    rgb(36, 57, 245),
+    rgb(124, 40, 192),
+    rgb(95, 4, 104)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.contact-ctn p {
+  color: lightgray;
+  font-size: 15px;
+  max-width: 80%; /* Adjust width for better readability */
+}
+
+.social-media a {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 3rem;
+  height: 3rem;
+  background: transparent;
+  border: 0.2rem solid blueviolet;
+  border-radius: 50%;
+  color: lightgray;
+  margin: 20px 7px;
+  transition: 0.5s ease;
+}
+
+.social-media a:hover {
+  background-color: blueviolet;
+  color: lightgray;
+  box-shadow: 0 0 8px lightgray;
+}
+
+.contact-form {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: lightgray;
+}
+
+.contact-email {
+  display: block;
+  margin: 10px 0;
+}
+
+input {
+  padding: 10px;
+  width: 100%; /* Full width inside the form */
+  border-radius: 10px;
+  border: none;
+  background: linear-gradient(
+    to top,
+    rgb(36, 57, 245),
+    rgb(124, 40, 192),
+    rgb(95, 4, 104)
+  );
+  color: white;
+}
+
+input::placeholder {
+  color: white;
+  font-size: 17px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+label {
+  font-size: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+  color: lightgray;
+}
+
+.contact-btn {
+  padding: 8px 18px;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  border-radius: 50px;
+  color: white;
+  background: none;
+  border: 3px solid blueviolet;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.contact-btn:hover {
+  background: linear-gradient(
+    to top,
+    rgb(36, 57, 245),
+    rgb(124, 40, 192),
+    rgb(95, 4, 104)
+  );
+  border: 3px solid blueviolet;
+}
+
+.contact-btn a {
+  text-decoration: none;
+  color: white;
+  transition: 0.6s ease;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ---------------------------------------------------------------------------- */
+/* .grid-layout{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: white;
+  height: 100vh;
+  align-items: center;
+  gap: 20px;
+}
+.contact-ctn h2{
+  font-size: 30px;
+  font-weight: bold;
+  background: linear-gradient(
+  to top,
+  rgb(36, 57, 245),
+  rgb(124, 40, 192),
+  rgb(95, 4, 104)
+);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+ }
+ .contact-ctn p{
+  font-size: 17px;
+  width: 50rem;
+ }
+ .social-media-icons a{
+  display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 3rem;
+    height: 3rem;
+    background: transparent;
+    border: .2rem solid blueviolet;
+    border-radius: 50%;
+    color: lightgray;
+    margin: 20px 7px;
+    transition: .5s ease;
+  }
+  .social-media-icons a:hover{
+    background-color: blueviolet;
+    color: lightgray;
+    box-shadow: 0 0 8px lightgray;
+  }
+ .contact-form{
+  color: lightgray;
+ }
+ label{
+  font-size: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+  color: lightgray;
+ }
+ input::placeholder{
+  color: white;
+  font-size: 17px;
+  font-family:Arial, Helvetica, sans-serif;
+ }
+ .eamil-address{
+  display: block;
+ } */

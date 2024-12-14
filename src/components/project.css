@@ -1,0 +1,92 @@
+.project-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    margin-left: 50px;
+}
+.project-container .project-box{
+    position: relative;
+  border-radius: 2rem;
+  box-shadow: 0 0 1rem blueviolet;
+  overflow: hidden;
+  display: flex;
+  height: 37vh;
+  width: 28vw;
+}
+.project-container h2{
+    background: linear-gradient(
+    to top,
+    rgb(36, 57, 245),
+    rgb(124, 40, 192),
+    rgb(95, 4, 104)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 65px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.project-box img{
+  width: 100%;
+  transition: .5s ease;
+}
+.project-box img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.project-box .project-layer{
+  background: linear-gradient(
+    to bottom, rgba(0,0,0,.1),
+    rgb(95, 4, 104)
+  );
+  /* opacity: 0.5; */
+  font-family: Georgia, "Times New Roman", Times, serif;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 0 4rem;
+  transform: translateY(100%);
+  transition: 1s ease;
+}
+.project-box:hover .project-layer{
+  transform: translateY(0);
+  /* cursor: pointer; */
+}
+.project-layer h4{
+  font-size: 20px;
+  
+  color: white;
+}
+.project-layer p{
+  color: white;
+  font-size: 14px;
+  
+}
+.project-layer a{
+  background-color: white;
+  border-radius: 50%;
+  padding: 12px;
+  margin-top: 10px;
+  
+}
+.heading h2{
+  font-size: 50px;
+  font-weight: bold;
+  background: linear-gradient(
+  to top,
+  rgb(36, 57, 245),
+  rgb(124, 40, 192),
+  rgb(95, 4, 104)
+);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+text-align: center;
+}

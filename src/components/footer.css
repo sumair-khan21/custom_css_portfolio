@@ -1,0 +1,42 @@
+.grid-footer{
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: rgb(65, 64, 64);
+    height: 20vh;
+}
+.footer-layout{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer-layout p{
+    display: flex;
+    gap: 20px;
+}
+.footer-layout h4{
+    transition: .6s ease-in-out;
+}
+.footer-layout h4:hover{
+    color: white;
+}
+.footer-layout h3{
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    cursor: pointer;
+    color: grey;
+}
+.transition{
+    transition: .6s ease-in-out;
+    
+}
+.footer-layout h3:hover{
+   color: white;
+}
+.footer-layout svg{
+    /* border: .2rem solid blueviolet; */
+    color: grey;
+}
+.footer-layout svg:hover{
+    color: blueviolet;
+}
