@@ -16,20 +16,19 @@ function Navbar() {
         <div className="navbar  ">
           <div className="navbar-main ">
             <div className="logo">
-              <a href="/" className="logo1 text-white ">
-                SUMAIR K.
-              </a>
+              <Link href="/" className="logo1 text-white ">SUMAIR K.</Link>
+              
             </div>
             <div className="hidden1 ">
               <div className="nav-items ">
                 {/* <Link href="./" className="items" >Home</Link> */}
-                <Link href="@components/about" className="items">
+                <Link href="/about" className="items">
                   ABOUT
                 </Link>
-                <Link href="/components/services" className="items">
+                <Link href="/project" className="items">
                   PROJECTS
                 </Link>
-                <Link href="./contact" className="items">
+                <Link href="/contact" className="items">
                   CONTACT
                 </Link>
               </div>
@@ -78,10 +77,10 @@ function Navbar() {
               <Link href="/about" className="items">
                 ABOUT
               </Link>
-              <Link href="./services" className="items">
+              <Link href="/project" className="items">
                 PROJECTS
               </Link>
-              <Link href="./contact" className="items">
+              <Link href="/contact" className="items">
                 CONTACT
               </Link>
             </div>
